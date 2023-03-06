@@ -51,15 +51,15 @@ module.exports = {
         useShortDoctype: true
       },
     }),
-    new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: path.resolve(__dirname, 'src/assets/base'),
-          to: path.resolve(__dirname, 'dist/img/[name][ext]')
-        },
-      ],
-    }),
-    new CleanWebpackPlugin(),
+    // new CopyWebpackPlugin({
+    //   patterns: [
+    //     {
+    //       from: path.resolve(__dirname, 'src/assets/base'),
+    //       to: path.resolve(__dirname, 'dist/img/[name][ext]')
+    //     },
+    //   ],
+    // }),
+    // new CleanWebpackPlugin(),
   ],
 
 }

@@ -11,12 +11,12 @@ let body = {
   items: [
     
     {
-      photo: require(''),
+      // photo: require(''),
       link: 'https://webpack.org'
     },
 
     {
-      photo: require(''),
+      // photo: require(''),
       link: 'https://webpack.org'
     },
 
